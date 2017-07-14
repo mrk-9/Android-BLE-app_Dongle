@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <include
+        android:id="@+id/tool_bar2"
+        layout="@layout/tool_bar"
+        android:layout_height="140dp"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:layout_margin="15dp"
+        android:id="@+id/info"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="15dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/status"
+        android:textSize="28sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="15dp"
+        android:textColor="@android:color/white"
+            android:id="@+id/tvDetails"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <ListView
+
+        android:layout_margin="15dp"
+        android:id="@+id/pairedlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#FFFFFF"
+        android:dividerHeight="2dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center">
+        <Button
+            android:layout_width="180dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="@string/without_dongle"
+            android:id="@+id/buttonOffline"
+            android:background="@drawable/buttontransparent"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.9"
+    android:src="@drawable/driver_woman"
+    android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Emergency and service support"
+    android:textColor="@android:color/white"
+    android:textSize="20dp"
+    android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:paddingBottom="20dp">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttontransparent_black"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/btnCallService"
+                android:text="Service"/>
+            <Button
+                android:layout_width="0dp"
+                android:background="@drawable/buttontransparent_black"
+                android:layout_weight="1"
+                android:id="@+id/btnCallEmergency"
+                android:layout_height="match_parent"
+                android:text="Emergency"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

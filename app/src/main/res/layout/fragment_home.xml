@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.HomePage">
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:text="Home"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:id="@+id/linearFlipperf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <ImageView
+            android:src="@mipmap/arrow_up"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"/>
+        <ViewFlipper
+            android:id="@+id/flipperMonths"
+            android:layout_below="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+        </ViewFlipper>
+        <ImageView
+            android:src="@mipmap/aroow_down"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:layout_marginBottom="20dp">
+        <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+        <com.belladati.android.views.Table
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableJson"
+            android:background="@android:color/white"></com.belladati.android.views.Table>
+        </HorizontalScrollView>
+    </ScrollView>
+
+
+</LinearLayout>

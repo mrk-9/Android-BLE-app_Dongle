@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BellaDati车联网应用</string>
+    <string name="connect_succ">连接成功</string>
+    <string name="bt_device">蓝牙设备</string>
+    <string name="without_dongle">没有连接设备</string>
+    <string name="scan_dongle">正在寻找设备</string>
+    <string name="cancel">取消</string>
+    <string name="home">主页</string>
+    <string name="map">地图</string>
+    <string name="stats">统计</string>
+    <string name="dashboard">仪表盘</string>
+    <string name="last6">过去6个月统计</string>
+    <string name="title_activity_maps">地图</string>
+    <string name="emer_phone">紧急呼救电话设置</string>
+    <string name="save">保存</string>
+    <string name="action_settings">紧急</string>
+    <string name="insert_phone">插入保险电话号码</string>
+    <string name="without_internet">您没有互联网连接</string>
+    <string name="suc_saved">成功保存</string>
+    <string name="bt_center_map_description">中心在我的位置</string>
+    <string name="bt_follow_me_description">跟着我</string>
+    <string name="insert_firstaid_phone">插入紧急电话号码</string>
+    <string name="insert_breakdown_number">插入细分电话号码</string>
+    <string name="progres_connecting">连接</string>
+
+
+</resources>

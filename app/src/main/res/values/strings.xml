@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PHYD eCall</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Phone numbers settings</string>
+    <string name="bt_center_map_description">Center on my location</string>
+    <string name="bt_follow_me_description">Follow me</string>
+    <string name="connect_succ">Connection successful</string>
+    <string name="bt_device">Bluetooth device</string>
+    <string name="without_dongle">Without dongle</string>
+    <string name="scan_dongle">Scanning for dongle</string>
+    <string name="cancel">Cancel</string>
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="stats">Stats</string>
+    <string name="dashboard">Summary</string>
+    <string name="last6">Last 6 months statistics</string>
+    <string name="emer_phone">Phone numbers settings</string>
+    <string name="save">Save</string>
+    <string name="insert_phone">Insert insurance phone number</string>
+    <string name="without_internet">You are without internet connection!</string>
+    <string name="suc_saved">successfully saved</string>
+    <string name="insert_firstaid_phone">Insert emergency phone number</string>
+    <string name="insert_breakdown_number">Insert service phone number</string>
+    <string name="progres_connecting">Connecting to dongle</string>
+
+
+</resources>

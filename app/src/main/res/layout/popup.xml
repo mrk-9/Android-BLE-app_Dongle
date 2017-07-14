@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="@string/emer_phone"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="35dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="13"
+        android:hint="@string/insert_phone"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="35dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/editEmerNumber" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="13"
+        android:hint="@string/insert_breakdown_number"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="35dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/editServiceNumber" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="13"
+        android:hint="@string/insert_firstaid_phone"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="35dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/editFirstAidNumber" />
+
+    <Button
+        android:id="@+id/save_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttontransparent"
+        android:textColor="#FFFFFF"
+        android:text="@string/save"/>
+
+
+
+</LinearLayout> 

@@ -1,0 +1,25 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=61:D0:AE:D0:21:15:90:26:53:47:2B:E3:5B:15:19:8C:07:85:59:B4%3Bcom.example.karimt.belladatidongleapp
+
+    You can also add your credentials to an existing key, using this line:
+    5C:4D:8E:A1:9F:C7:E4:1C:E2:15:00:89:C5:0E:B2:0C:30:73:21:84;com.example.karimt.belladatidongleapp
+
+    61:D0:AE:D0:21:15:90:26:53:47:2B:E3:5B:15:19:8C:07:85:59:B4
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAm7duk4Zokn4RpCQBpTS2EqLTBngLD4aA
+    </string>
+
+
+</resources>
